@@ -9,6 +9,10 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "styles":[
+        "styles.css",
+        "../node_modules/ngx-toastr/toastr.css"
+      ],
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
